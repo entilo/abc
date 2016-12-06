@@ -14,7 +14,6 @@ public class TestHello extends AbstractHello {
 
 	@Test
 	public void testHello() {
-		Hello h = new Hello();
-		System.out.println(h.hello());
+		System.out.println(Hello.hello());
 	}
 }
